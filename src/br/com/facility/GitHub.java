@@ -9,8 +9,10 @@ public class GitHub {
 		
 		Cliente c = new Cliente();
 		c.setNome("Marcelo");
+		c.setId(1);
 		
-		System.out.println(c.getNome());
+		System.out.println(c.getNome() + " - " + c.getId());
+
 	}
 	
 }
